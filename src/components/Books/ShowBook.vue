@@ -8,6 +8,9 @@
     <p>publisher: {{ book.publisher }}</p>
     <p>category: {{ book.category }}</p>
     <p>price: {{ book.price }}</p>
+    <p><button v-on:click="navigateTo('/user/edit/' + user.id)">แก้ไข</button></p>
+    <p><button v-on:click="navigateTo('/users')">กลับ</button></p>
+    <hr>
   </div>
 </template>
 <script>
