@@ -8,9 +8,9 @@
       <div>author: {{ book.author }}</div>
       <div>total_page: {{ book.total_page }}</div>
       <div>publisher: {{ book.publisher }}</div>
-      <div>category: {{ book.category }}</div>
+      <div>category: {{ book.category }}</div> 
       <div>price: {{ book.price }}</div>
-      <p>
+      <p> 
         <button v-on:click="navigateTo('/book/' + book.id)">
           ดูข้อมูลหนังสือ
         </button>
